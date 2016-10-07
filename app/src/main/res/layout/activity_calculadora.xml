@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calculadora"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="lecmtez.desapp.com.calculadora.calculadora">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:padding="1dp">
+        <TableRow>
+            <EditText
+                android:id="@+id/edtVisor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_column="0"
+                android:id="@+id/btnClear"
+                android:text="@string/btnClear"/>
+            <Button
+                android:layout_column="1"
+                android:id="@+id/btnMasMenos"
+                android:text="@string/btnMasMenos"/>
+            <Button
+                android:layout_column="2"
+                android:id="@+id/btnPorcentaje"
+                android:text="@string/btnPorcentaje"/>
+            <Button
+                android:layout_column="3"
+                android:id="@+id/btnDivision"
+                android:text="@string/btnDivision"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnSiete"
+                android:text="@string/btnSiete"/>
+            <Button
+                android:id="@+id/btnOcho"
+                android:text="@string/btnOcho"/>
+            <Button
+                android:id="@+id/btnNueve"
+                android:text="@string/btnNueve"/>
+            <Button
+                android:id="@+id/btnMultiplicacion"
+                android:text="@string/btnMultiplicacion"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnCuatro"
+                android:text="@string/btnCuatro"/>
+            <Button
+                android:id="@+id/btnCinco"
+                android:text="@string/btnCinco" />
+            <Button
+                android:id="@+id/btnSeis"
+                android:text="@string/btnSeis"/>
+            <Button
+                android:id="@+id/btnResta"
+                android:text="@string/btnResta"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnUno"
+                android:text="@string/btnUno"/>
+            <Button
+                android:id="@+id/btnDos"
+                android:text="@string/btnDos"/>
+            <Button
+                android:id="@+id/btnTres"
+                android:text="@string/btnTres"/>
+            <Button
+                android:id="@+id/btnSuma"
+                android:text="@string/btnSuma" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnCero"
+                android:text="@string/btnCero" />
+            <Button
+                android:id="@+id/btnPunto"
+                android:text="@string/btnPunto" />
+            <Button
+                android:id="@+id/btnResultado"
+                android:text="@string/btnResultado" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

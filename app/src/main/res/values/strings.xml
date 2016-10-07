@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string-array name="botones">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>÷</item>
+        <item>=</item>
+        <item>C</item>
+        <item>+/-</item>
+        <item>%</item>
+        <item>.</item>
+    </string-array>
+    <string name="btnCero">0</string>
+    <string name="btnUno">1</string>
+    <string name="btnDos">2</string>
+    <string name="btnTres">3</string>
+    <string name="btnCuatro">4</string>
+    <string name="btnCinco">5</string>
+    <string name="btnSeis">6</string>
+    <string name="btnSiete">7</string>
+    <string name="btnOcho">8</string>
+    <string name="btnNueve">9</string>
+    <string name="btnSuma">+</string>
+    <string name="btnResta">-</string>
+    <string name="btnMultiplicacion">x</string>
+    <string name="btnDivision">÷</string>
+    <string name="btnResultado">=</string>
+    <string name="btnPunto">.</string>
+    <string name="btnPorcentaje">%</string>
+    <string name="btnClear">C</string>
+    <string name="btnMasMenos">+/-</string>
+</resources>
