@@ -16,9 +16,11 @@
         android:stretchColumns="1"
         android:padding="1dp">
         <TableRow>
-            <EditText
-                android:id="@+id/edtVisor"
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/tvVisor"
+                android:background="@color/colorPrimary"
+                android:layout_span="4"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"/>
         </TableRow>
         <TableRow>
@@ -84,7 +86,8 @@
         <TableRow>
             <Button
                 android:id="@+id/btnCero"
-                android:text="@string/btnCero" />
+                android:text="@string/btnCero"
+                android:layout_span="2"/>
             <Button
                 android:id="@+id/btnPunto"
                 android:text="@string/btnPunto" />
